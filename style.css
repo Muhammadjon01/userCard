@@ -1,0 +1,105 @@
+.container{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.main_container{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background: rebeccapurple;
+    box-shadow: 0 0 20px saddlebrown;
+}
+
+.image_first,
+.image_second,
+.image_third{
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+
+h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    background: chartreuse;
+    margin: auto;
+    cursor: pointer;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: -4px;
+}
+
+.rustam_information,
+.munavar_information,
+.ahllidin_information{
+    width: 330px;
+    height: 230px;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 0 0 10px chartreuse;
+    transition: all .3s;
+    transform: scale(0);
+    margin: auto;
+    background: #fff;
+    margin-top: -480px;
+    margin-left: 100px;
+    position: absolute;
+    padding-top: 20px;
+    background: burlywood;
+}
+
+.rustam_information.active{
+    transform: scale(1);
+}
+
+.munavar_information.active{
+    transform: scale(1);
+}
+
+.ahllidin_information.active{
+    transform: scale(1);
+}
+
+.del_btn,
+.s_del_btn,
+.t_del_btn{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    float: right;
+    border-radius: 5px;
+    border: 1px solid #333;
+    margin-right: 10px;
+    margin-top: -10px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.del_btn:hover{
+    background: #333;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.s_del_btn:hover{
+    background: #333;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.t_del_btn:hover{
+    background: #333;
+    color: #fff;
+    transform: scale(1.1);
+}
