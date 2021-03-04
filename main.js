@@ -11,9 +11,6 @@ let t_del_btn = document.querySelector(".t_del_btn")
 
 image_first.addEventListener("click", function(){
     showHideCard(rustam_information, munavar_information, ahllidin_information )
-    // rustam_information.classList.add("active")
-    // munavar_information.classList.remove("active")
-    // ahllidin_information.classList.remove("active")
 })
 
 del_btn.addEventListener("click", function(){
@@ -22,9 +19,6 @@ del_btn.addEventListener("click", function(){
 
 image_second.addEventListener("click", function(){
     showHideCard(munavar_information, rustam_information, ahllidin_information )
-    // munavar_information.classList.add("active")
-    // rustam_information.classList.remove("active")
-    // ahllidin_information.classList.remove("active")
 })
 
 s_del_btn.addEventListener("click", function(){
@@ -33,9 +27,6 @@ s_del_btn.addEventListener("click", function(){
 
 image_third.addEventListener("click", function(){
     showHideCard(ahllidin_information, rustam_information, munavar_information)
-    // ahllidin_information.classList.add("active")
-    // rustam_information.classList.remove("active")
-    // munavar_information.classList.remove("active")
 })
 
 t_del_btn.addEventListener("click", function(){
